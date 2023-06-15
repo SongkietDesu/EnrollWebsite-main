@@ -1,5 +1,3 @@
-
-
 const Enroll = () => {
     return (
         <div class="container mt-5">
@@ -16,7 +14,7 @@ const Enroll = () => {
                         </div>
                         <div class="form-group mt-3">
                             <label for="exampleInputPassword1">Phone</label>
-                            <input type="tel" class="form-control" id="Phone" placeholder="Phone" /> {/*Input of phone*/}
+                            <input type="tel" class="form-control" id="Phone" placeholder="0123456789" /> {/*Input of phone*/}
                         </div>
                         <div class="text-center">
                             <button style={{ width: "200px" }} type="submit" class="btn btn-primary mt-3">Submit</button> {/*Submit button*/}
